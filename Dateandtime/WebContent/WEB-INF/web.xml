@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Dateandtime</display-name>
+  <welcome-file-list>
+    <welcome-file>Date.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Date</display-name>
+    <servlet-name>Date</servlet-name>
+    <servlet-class>com.lti.date.Date</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Date</servlet-name>
+    <url-pattern>/datetime.view</url-pattern>
+  </servlet-mapping>
+</web-app>
